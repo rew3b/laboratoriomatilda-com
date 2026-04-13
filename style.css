@@ -14,7 +14,7 @@ body {
   font-weight: 400;
   color: #191A18;
   background: #faf8f5;
-  font-size: 17px;
+  font-size: 21px;
   line-height: 1.8;
   -webkit-font-smoothing: antialiased;
 }
@@ -41,12 +41,12 @@ nav {
 }
 .nav-logo {
   font-family: 'Press Start 2P', monospace;
-  font-size: 0.7rem; color: #191A18;
+  font-size: 0.88rem; color: #191A18;
   letter-spacing: 4px; text-decoration: none;
 }
 .nav-links { display: flex; gap: 2.5rem; list-style: none; }
 .nav-links a {
-  color: #A79C93; font-size: 0.82rem; font-weight: 400;
+  color: #A79C93; font-size: 1.02rem; font-weight: 400;
   letter-spacing: 0.5px; text-decoration: none;
   transition: color 0.3s;
 }
@@ -79,14 +79,14 @@ section { padding: 7rem 0; }
   margin-bottom: 3rem;
 }
 .hero-intro {
-  font-size: 1.15rem; color: #5A5450;
+  font-size: 1.44rem; color: #5A5450;
   line-height: 2; max-width: 540px;
 }
 .hero-cta {
   display: inline-block; margin-top: 3rem;
   padding: 1rem 2.5rem;
   border: 1px solid #191A18; color: #191A18;
-  font-size: 0.78rem; letter-spacing: 2px;
+  font-size: 0.98rem; letter-spacing: 2px;
   text-transform: uppercase; text-decoration: none;
   transition: all 0.35s;
 }
@@ -95,21 +95,21 @@ section { padding: 7rem 0; }
 /* ── Section titles ── */
 .label {
   font-family: 'Source Code Pro', monospace;
-  font-size: 0.68rem; letter-spacing: 3px;
+  font-size: 0.85rem; letter-spacing: 3px;
   text-transform: uppercase; color: #A79C93; margin-bottom: 1.2rem;
 }
 .heading {
   font-family: 'Press Start 2P', monospace;
-  font-size: clamp(0.75rem, 1.8vw, 1rem);
+  font-size: clamp(0.94rem, 2.25vw, 1.25rem);
   line-height: 2.4; letter-spacing: 2px;
   margin-bottom: 2rem;
 }
 .lead {
-  font-size: 1.1rem; color: #5A5450; line-height: 2.1;
+  font-size: 1.38rem; color: #5A5450; line-height: 2.1;
   max-width: 680px;
 }
 .body-text {
-  font-size: 1rem; color: #4A4A47; line-height: 1.8;
+  font-size: 1.25rem; color: #4A4A47; line-height: 1.8;
   max-width: 700px;
 }
 .body-text + .body-text { margin-top: 1.5rem; }
@@ -123,7 +123,7 @@ section { padding: 7rem 0; }
 .img-ph {
   background: #ece5da;
   display: flex; align-items: center; justify-content: center;
-  font-size: 0.68rem; color: #b8a88e; letter-spacing: 2px;
+  font-size: 0.85rem; color: #b8a88e; letter-spacing: 2px;
   text-transform: uppercase; text-align: center; line-height: 2;
 }
 
@@ -135,18 +135,18 @@ section { padding: 7rem 0; }
 
 /* ── Quotes / Testimonials ── */
 .quote {
-  font-size: 1.15rem; font-style: italic; color: #4A4A47;
+  font-size: 1.44rem; font-style: italic; color: #4A4A47;
   line-height: 2; max-width: 600px;
   padding-left: 1.5rem; border-left: 2px solid #A79C93;
 }
 .quote-author {
-  margin-top: 1rem; font-size: 0.82rem;
+  margin-top: 1rem; font-size: 1.02rem;
   color: #A79C93; font-style: normal; letter-spacing: 0.5px;
 }
 
 /* ── Brand list ── */
 .brands {
-  font-size: 0.95rem; color: #A79C93; line-height: 2.5;
+  font-size: 1.19rem; color: #A79C93; line-height: 2.5;
   letter-spacing: 0.3px;
 }
 
@@ -159,11 +159,11 @@ section { padding: 7rem 0; }
 .svc-card:last-child { border-bottom: none; }
 .svc-card:hover { transform: translateY(-2px); }
 .svc-card h3 {
-  font-size: 1.05rem; font-weight: 600;
+  font-size: 1.31rem; font-weight: 600;
   margin-bottom: 0.8rem; color: #191A18;
 }
 .svc-card p {
-  font-size: 0.95rem; color: #5A5450; line-height: 1.9;
+  font-size: 1.19rem; color: #5A5450; line-height: 1.9;
 }
 
 /* ── Tabs ── */
@@ -174,7 +174,7 @@ section { padding: 7rem 0; }
 }
 .tab-btn {
   padding: 1rem 1.8rem; background: none; border: none;
-  font-family: 'Work Sans', sans-serif; font-size: 0.85rem;
+  font-family: 'Work Sans', sans-serif; font-size: 1.06rem;
   color: #A79C93; cursor: pointer;
   border-bottom: 2px solid transparent;
   transition: all 0.3s; font-weight: 400;
@@ -190,7 +190,7 @@ section { padding: 7rem 0; }
 .sub-btn {
   padding: 0.45rem 1.1rem; background: none;
   border: 1px solid #D0CAC3; color: #A79C93;
-  font-size: 0.78rem; cursor: pointer;
+  font-size: 0.98rem; cursor: pointer;
   transition: all 0.3s; font-family: 'Work Sans', sans-serif;
 }
 .sub-btn:hover { border-color: #5A5450; color: #5A5450; }
@@ -202,32 +202,32 @@ section { padding: 7rem 0; }
 .price-table { width: 100%; border-collapse: collapse; }
 .price-table th {
   text-align: left; padding: 0.6rem 0;
-  font-size: 0.72rem; letter-spacing: 1px; text-transform: uppercase;
+  font-size: 0.9rem; letter-spacing: 1px; text-transform: uppercase;
   color: #A79C93; font-weight: 400;
   border-bottom: 1px solid rgba(0,0,0,0.08);
 }
 .price-table td {
-  padding: 0.8rem 0; font-size: 0.95rem;
+  padding: 0.8rem 0; font-size: 1.19rem;
   border-bottom: 1px solid rgba(0,0,0,0.04);
   vertical-align: top;
   color: #191A18;
 }
 .pv { display: flex; flex-wrap: wrap; gap: 0.3rem 1.5rem; }
 .pv span { white-space: nowrap; }
-.pv .m { color: #5A5450; font-size: 0.88rem; }
+.pv .m { color: #5A5450; font-size: 1.1rem; }
 .pv .v { font-weight: 600; color: #191A18; font-family: 'Source Code Pro', monospace; }
 .ps { font-weight: 600; color: #191A18; font-family: 'Source Code Pro', monospace; }
-.brand-note { font-size: 0.78rem; color: #A79C93; margin-top: 0.3rem; }
+.brand-note { font-size: 0.98rem; color: #A79C93; margin-top: 0.3rem; }
 .price-brand-header td {
   padding: 1.8rem 0 0.5rem;
-  font-size: 0.72rem; letter-spacing: 2px;
+  font-size: 0.9rem; letter-spacing: 2px;
   text-transform: uppercase; color: #A79C93; font-weight: 600;
   border-bottom: 1px solid rgba(0,0,0,0.06);
 }
 .listino-note {
   margin-top: 3rem; padding-top: 2rem;
   border-top: 1px solid rgba(0,0,0,0.06);
-  font-size: 0.88rem; color: #5A5450; line-height: 2;
+  font-size: 1.1rem; color: #5A5450; line-height: 2;
 }
 .listino-note a { border-bottom: 1px solid #D0CAC3; text-decoration: none; color: #5A5450; transition: all 0.3s; }
 .listino-note a:hover { border-color: #D55546; color: #D55546; }
@@ -242,7 +242,7 @@ section { padding: 7rem 0; }
 .gallery-item .caption {
   position: absolute; bottom: 0; left: 0; right: 0;
   padding: 1.2rem; background: #FAF5DE;
-  font-size: 0.82rem; color: #191A18; line-height: 1.6;
+  font-size: 1.02rem; color: #191A18; line-height: 1.6;
   transform: translateY(100%); transition: transform 0.35s;
 }
 .gallery-item:hover .caption { transform: translateY(0); }
@@ -251,17 +251,17 @@ section { padding: 7rem 0; }
 .contact-block { margin-bottom: 2.5rem; }
 .contact-label {
   font-family: 'Source Code Pro', monospace;
-  font-size: 0.65rem; letter-spacing: 2.5px;
+  font-size: 0.81rem; letter-spacing: 2.5px;
   text-transform: uppercase; color: #A79C93; margin-bottom: 0.5rem;
 }
-.contact-value { font-size: 1.02rem; color: #191A18; line-height: 1.8; }
+.contact-value { font-size: 1.28rem; color: #191A18; line-height: 1.8; }
 .contact-value a { text-decoration: none; border-bottom: 1px solid rgba(0,0,0,0.12); transition: all 0.3s; color: #191A18; }
 .contact-value a:hover { border-color: #D55546; color: #D55546; }
 
 .form-field {
   width: 100%; padding: 1rem 0; background: none;
   border: none; border-bottom: 1px solid rgba(0,0,0,0.1);
-  font-family: 'Work Sans', sans-serif; font-size: 0.95rem;
+  font-family: 'Work Sans', sans-serif; font-size: 1.19rem;
   font-weight: 400; color: #191A18; outline: none;
   margin-bottom: 0.5rem; transition: border-color 0.3s;
 }
@@ -274,7 +274,7 @@ textarea.form-field { resize: vertical; min-height: 120px; line-height: 1.8; }
   padding: 1rem 2.5rem; background: none;
   border: 1px solid #191A18; color: #191A18;
   font-family: 'Work Sans', sans-serif;
-  font-size: 0.78rem; letter-spacing: 2px; text-transform: uppercase;
+  font-size: 0.98rem; letter-spacing: 2px; text-transform: uppercase;
   cursor: pointer; transition: all 0.35s;
 }
 .form-submit:hover { background: #D55546; color: #FFFFFF; border-color: #D55546; }
@@ -283,7 +283,7 @@ textarea.form-field { resize: vertical; min-height: 120px; line-height: 1.8; }
   margin-top: 3rem; aspect-ratio: 21/9;
   background: #ece5da; display: flex;
   align-items: center; justify-content: center;
-  font-size: 0.7rem; color: #b8a88e; letter-spacing: 2px;
+  font-size: 0.88rem; color: #b8a88e; letter-spacing: 2px;
   text-transform: uppercase;
 }
 
@@ -294,10 +294,10 @@ footer {
 }
 .footer-logo {
   font-family: 'Press Start 2P', monospace;
-  font-size: 0.55rem; letter-spacing: 4px;
+  font-size: 0.69rem; letter-spacing: 4px;
   color: #A79C93; margin-bottom: 1.2rem;
 }
-footer p { font-size: 0.78rem; color: #A79C93; letter-spacing: 0.3px; }
+footer p { font-size: 0.98rem; color: #A79C93; letter-spacing: 0.3px; }
 footer a { color: #A79C93; text-decoration: none; border-bottom: 1px solid rgba(0,0,0,0.1); transition: all 0.3s; }
 footer a:hover { color: #D55546; border-color: #D55546; }
 
@@ -360,17 +360,17 @@ footer a:hover { color: #D55546; border-color: #D55546; }
 }
 .carousel-card:hover { background: #FAF5DE; border-color: #A79C93; }
 .carousel-card h3 {
-  font-size: 0.95rem; font-weight: 600;
+  font-size: 1.19rem; font-weight: 600;
   margin-bottom: 0.5rem; color: #191A18;
 }
 .carousel-card .card-origin {
   font-family: 'Source Code Pro', monospace;
-  font-size: 0.68rem; color: #A79C93;
+  font-size: 0.85rem; color: #A79C93;
   letter-spacing: 1.5px; text-transform: uppercase;
   margin-bottom: 1rem;
 }
 .carousel-card p {
-  font-size: 0.88rem; color: #5A5450; line-height: 1.8;
+  font-size: 1.1rem; color: #5A5450; line-height: 1.8;
 }
 .carousel-nav {
   display: flex; gap: 0.5rem; margin-top: 1.5rem;
@@ -391,8 +391,8 @@ footer a:hover { color: #D55546; border-color: #D55546; }
   transition: all 0.3s ease;
 }
 .prod-cat:hover { background: #FAF5DE; border-color: #A79C93; }
-.prod-cat h3 { font-size: 0.95rem; font-weight: 600; margin-bottom: 0.5rem; color: #191A18; }
-.prod-cat p { font-size: 0.85rem; color: #5A5450; line-height: 1.8; }
+.prod-cat h3 { font-size: 1.19rem; font-weight: 600; margin-bottom: 0.5rem; color: #191A18; }
+.prod-cat p { font-size: 1.06rem; color: #5A5450; line-height: 1.8; }
 
 /* ── Responsive ── */
 @media (max-width: 768px) {
