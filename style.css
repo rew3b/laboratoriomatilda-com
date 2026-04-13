@@ -304,6 +304,64 @@ footer a:hover { color: #2a2a2a; }
 .wa-float:hover { transform: scale(1.08); }
 .wa-float svg { width: 28px; height: 28px; fill: #fff; }
 
+/* ── Product carousel ── */
+.carousel-wrap {
+  position: relative;
+  overflow: hidden;
+  margin: 3rem 0 0;
+}
+.carousel-track {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding-bottom: 1rem;
+}
+.carousel-track::-webkit-scrollbar { display: none; }
+.carousel-card {
+  flex: 0 0 260px;
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.06);
+  padding: 2rem 1.5rem;
+  transition: border-color 0.3s;
+}
+.carousel-card:hover { border-color: rgba(0,0,0,0.15); }
+.carousel-card h3 {
+  font-size: 0.95rem; font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.carousel-card .card-origin {
+  font-size: 0.68rem; color: #bbb;
+  letter-spacing: 1.5px; text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.carousel-card p {
+  font-size: 0.88rem; color: #999; line-height: 1.8;
+}
+.carousel-nav {
+  display: flex; gap: 0.5rem; margin-top: 1.5rem;
+}
+.carousel-nav button {
+  width: 40px; height: 40px; border: 1px solid #ddd;
+  background: none; cursor: pointer; font-size: 1.1rem;
+  color: #aaa; transition: all 0.3s; display: flex;
+  align-items: center; justify-content: center;
+}
+.carousel-nav button:hover { border-color: #2a2a2a; color: #2a2a2a; }
+
+/* ── Product grid ── */
+.prod-cats { display: grid; grid-template-columns: repeat(4,1fr); gap: 1.5rem; margin-top: 2.5rem; }
+.prod-cat {
+  padding: 2rem 1.5rem;
+  border: 1px solid rgba(0,0,0,0.06);
+  transition: border-color 0.3s;
+}
+.prod-cat:hover { border-color: rgba(0,0,0,0.15); }
+.prod-cat h3 { font-size: 0.95rem; font-weight: 500; margin-bottom: 0.5rem; }
+.prod-cat p { font-size: 0.85rem; color: #999; line-height: 1.8; }
+
 /* ── Responsive ── */
 @media (max-width: 768px) {
   .hamburger { display: block; }
@@ -321,4 +379,6 @@ footer a:hover { color: #2a2a2a; }
   .page-header { padding-top: 9rem; }
   .container, .container-wide { padding: 0 1.5rem; }
   .tabs { flex-wrap: wrap; }
+  .carousel-card { flex: 0 0 220px; }
+  .prod-cats { grid-template-columns: repeat(2,1fr); }
 }

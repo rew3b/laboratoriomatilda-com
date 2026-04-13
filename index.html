@@ -186,8 +186,100 @@
   </div>
 </section>
 
-<!-- Brand -->
+<!-- Il negozio: Prodotti e accessori -->
 <section>
+  <div class="container">
+    <p class="label">Il negozio</p>
+    <h2 class="heading">Prodotti e accessori</h2>
+    <p class="lead" style="margin-bottom:1.5rem;">
+      Oltre alle riparazioni, nel nostro negozio a Rimini trovi
+      una selezione di prodotti professionali per la cura delle calzature
+      e della pelletteria, accessori per il comfort del piede
+      e un assortimento di cinture e fibbie artigianali.
+    </p>
+
+    <!-- Carousel brand prodotti -->
+    <div class="carousel-wrap">
+      <div class="carousel-track" id="brand-carousel">
+        <div class="carousel-card">
+          <div class="card-origin">Made in U.S.A.</div>
+          <h3>Angelus</h3>
+          <p>Tinture per pelle e camoscio, vernici acriliche Leather Paint
+            in oltre 30 colori, Suede Dye & Dressing, Easy Cleaner
+            e Suede Cleaner. Il riferimento mondiale per la personalizzazione
+            e il restauro cromatico delle calzature.</p>
+        </div>
+        <div class="carousel-card">
+          <div class="card-origin">Paris · dal 1931</div>
+          <h3>Famaco</h3>
+          <p>Collection 1931: Baume Intense per nutrire la pelle in profondità,
+            Crème de Beauté pour Cuir per lucidare e proteggere,
+            spray Impermeabilisant Waterproof. L'alta gamma della cura
+            del pellame dalla tradizione parigina.</p>
+        </div>
+        <div class="carousel-card">
+          <div class="card-origin">Italia</div>
+          <h3>Primacy</h3>
+          <p>Linea Spray per camoscio e nubuck ricolorante in tutti i toni,
+            dalla ricolorazione al marrone scuro al nero intenso.
+            Linea Benessere con protezioni in silicone per il piede —
+            separadita, cuscinetti metatarsali, talloniere.</p>
+        </div>
+        <div class="carousel-card">
+          <div class="card-origin">Italia</div>
+          <h3>Movi</h3>
+          <p>Tendiscarpe in legno di cedro con molla regolabile —
+            essenziali per mantenere la forma della calzatura.
+            Solette Anti-Shock, Ultra Soft e Multi Sport
+            per ogni tipo di attività e calzatura.</p>
+        </div>
+        <div class="carousel-card">
+          <div class="card-origin">Italia</div>
+          <h3>Prestige</h3>
+          <p>Solette Relax Anatomica in vera pelle — supporto
+            e comfort per l'uso quotidiano. Solette Vero Cuoio
+            disponibili in tutte le taglie, dal 36 al 46.
+            Sottopiede classico per scarpe eleganti.</p>
+        </div>
+      </div>
+      <div class="carousel-nav">
+        <button onclick="document.getElementById('brand-carousel').scrollBy({left:-280,behavior:'smooth'})" aria-label="Precedente">&larr;</button>
+        <button onclick="document.getElementById('brand-carousel').scrollBy({left:280,behavior:'smooth'})" aria-label="Successivo">&rarr;</button>
+      </div>
+    </div>
+
+    <!-- Categorie prodotto -->
+    <div class="prod-cats">
+      <div class="prod-cat">
+        <h3>Cura del pellame</h3>
+        <p>Creme, balsami, spray impermeabilizzanti,
+          tinture e vernici per pelle, camoscio e nubuck.
+          Angelus, Famaco, Primacy.</p>
+      </div>
+      <div class="prod-cat">
+        <h3>Solette e plantari</h3>
+        <p>Solette anatomiche in pelle, in cuoio naturale,
+          anti-shock, ultra soft e sportive.
+          Movi, Prestige, Sudex Piel.</p>
+      </div>
+      <div class="prod-cat">
+        <h3>Lacci e accessori</h3>
+        <p>Lacci in cotone, cerati e tondi in ogni colore
+          e lunghezza (da 60 a 150 cm).
+          Tendiscarpe in legno di cedro Movi.</p>
+      </div>
+      <div class="prod-cat">
+        <h3>Cinture e fibbie</h3>
+        <p>Ampio assortimento di cinture in pelle —
+          lisce, intrecciate, elastiche — e fibbie
+          di ricambio in metallo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Brand -->
+<section class="bg-warm">
   <div class="container">
     <p class="label">Brand</p>
     <h2 class="heading">Lavoriamo su tutti i brand</h2>
@@ -210,7 +302,7 @@
 </section>
 
 <!-- CTA -->
-<section class="bg-warm" style="text-align:center;">
+<section style="text-align:center;">
   <div class="container">
     <h2 class="heading">Hai un pezzo che<br>merita una seconda vita?</h2>
     <p class="lead" style="margin:0 auto 2.5rem;">
