@@ -24,6 +24,7 @@ img { max-width: 100%; display: block; }
 
 /* ── Typography ── */
 .pixel { font-family: 'Press Start 2P', monospace; }
+.mono { font-family: 'Source Code Pro', monospace; }
 h1, h2, h3, h4 { font-weight: 600; }
 
 /* ── Nav ── */
@@ -93,6 +94,7 @@ section { padding: 7rem 0; }
 
 /* ── Section titles ── */
 .label {
+  font-family: 'Source Code Pro', monospace;
   font-size: 0.68rem; letter-spacing: 3px;
   text-transform: uppercase; color: #A79C93; margin-bottom: 1.2rem;
 }
@@ -213,8 +215,8 @@ section { padding: 7rem 0; }
 .pv { display: flex; flex-wrap: wrap; gap: 0.3rem 1.5rem; }
 .pv span { white-space: nowrap; }
 .pv .m { color: #5A5450; font-size: 0.88rem; }
-.pv .v { font-weight: 600; color: #191A18; }
-.ps { font-weight: 600; color: #191A18; }
+.pv .v { font-weight: 600; color: #191A18; font-family: 'Source Code Pro', monospace; }
+.ps { font-weight: 600; color: #191A18; font-family: 'Source Code Pro', monospace; }
 .brand-note { font-size: 0.78rem; color: #A79C93; margin-top: 0.3rem; }
 .price-brand-header td {
   padding: 1.8rem 0 0.5rem;
@@ -248,6 +250,7 @@ section { padding: 7rem 0; }
 /* ── Contact ── */
 .contact-block { margin-bottom: 2.5rem; }
 .contact-label {
+  font-family: 'Source Code Pro', monospace;
   font-size: 0.65rem; letter-spacing: 2.5px;
   text-transform: uppercase; color: #A79C93; margin-bottom: 0.5rem;
 }
@@ -361,6 +364,7 @@ footer a:hover { color: #D55546; border-color: #D55546; }
   margin-bottom: 0.5rem; color: #191A18;
 }
 .carousel-card .card-origin {
+  font-family: 'Source Code Pro', monospace;
   font-size: 0.68rem; color: #A79C93;
   letter-spacing: 1.5px; text-transform: uppercase;
   margin-bottom: 1rem;
